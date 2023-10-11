@@ -35,30 +35,30 @@ Microsoft.EntityFrameworkCore Version="7.0.11"
 Microsoft.EntityFrameworkCore.Design Version="7.0.11"
 Microsoft.EntityFrameworkCore.SqlServer Version="7.0.11" 
 Microsoft.EntityFrameworkCore.Tools Version="7.0.11"
-Microsoft.Extensions.Identity.Stores" Version="7.0.3" 
+Microsoft.Extensions.Identity.Stores Version="7.0.3" 
  
 ```
 Ecom.Infrastructure
 ```
-AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" 
-Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" 
-Microsoft.AspNetCore.Hosting.Abstractions" Version="2.1.1" 
-Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" 
-Microsoft.EntityFrameworkCore" Version="7.0.11"
-Microsoft.EntityFrameworkCore.Design" Version="7.0.11"
-Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" 
-Microsoft.EntityFrameworkCore.Tools" Version="7.0.11"
-Microsoft.Extensions.FileProviders.Abstractions" Version="7.0.0"
-Microsoft.IdentityModel.Tokens" Version="7.0.2" 
-StackExchange.Redis" Version="2.6.96" 
-Stripe.net" Version="42.8.0" 
-System.IdentityModel.Tokens.Jwt" Version="7.0.2"
+AutoMapper.Extensions.Microsoft.DependencyInjection Version="12.0.1" 
+Microsoft.AspNetCore.Authentication.JwtBearer Version="7.0.11" 
+Microsoft.AspNetCore.Hosting.Abstractions Version="2.1.1" 
+Microsoft.AspNetCore.Identity.EntityFrameworkCore Version="7.0.3" 
+Microsoft.EntityFrameworkCore Version="7.0.11"
+Microsoft.EntityFrameworkCore.Design Version="7.0.11"
+Microsoft.EntityFrameworkCore.SqlServer Version="7.0.11" 
+Microsoft.EntityFrameworkCore.Tools Version="7.0.11"
+Microsoft.Extensions.FileProviders.Abstractions Version="7.0.0"
+Microsoft.IdentityModel.Tokens Version="7.0.2" 
+StackExchange.Redis Version="2.6.96" 
+Stripe.net Version="42.8.0"
+System.IdentityModel.Tokens.Jwt Version="7.0.2"
  
 ```
 6.Rode as migrações do projeto com `add-migration InitialMigration -o "Data/Migrations"`, `update-database`
 
 7.rode o comando `dotnet watch run`
 
-8. Você pode testar todas as rotas através do <a href="http://localhost:5250/swagger/index.html" target="_blank">Swagger</a> 
+8.Você pode testar todas as rotas através do <a href="http://localhost:5250/swagger/index.html" target="_blank">Swagger</a> 
 
 
